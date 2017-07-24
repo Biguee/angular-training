@@ -1,13 +1,19 @@
-
 .titleClass{
   color: blueviolet;
   font-size: 30px;
   font-family: 'Monoton', cursive;
+
 }
 
 .music-form-card {
-  /*margin: 20px;*/
+  margin: 20px;
   border-color: #5b0091;
+  border-radius: 0px;
+}
+
+input[type="text"]
+{
+  font-family: 'Bellefair', serif;
 }
 
 .music-form {
@@ -35,7 +41,8 @@
   color: #5b0091;
   background-color: #c6b9e2;
   border-color: #5b0091;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Rozha One', serif;
+  border-radius: 0px;
 }
 
 .card-header{

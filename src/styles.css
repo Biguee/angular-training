@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #fafff1;
+  font-family: 'Rozha One', serif;
+}
+
+.card-img-top{
+  height: 320px;
+  width: 320px;
+}
+
+input.ng-dirty.ng-invalid, input.ng-touched.ng-invalid {
+  border: 1px solid red;
+}

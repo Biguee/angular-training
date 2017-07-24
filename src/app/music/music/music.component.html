@@ -1,0 +1,7 @@
+<div class="card music-card" [style.borderBottomColor]="music.category" (click)="select()">
+  <img class="card-img-top" src="{{music.url}}" alt="Music cover">
+  <div class="card-block">
+    <h4 class="card-title" [class.active]="selected == music">{{ music.title }}</h4>
+    <p class="card-text" [class.active2]="selected == music" [ngStyle]="artistStyle">{{ music.artist }}</p>
+  </div>
+</div>
